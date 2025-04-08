@@ -1,0 +1,70 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ovos (eggs) do Python
+*.egg
+*.egg-info/
+
+# Arquivos de instalação/distribuição
+dist/
+build/
+wheels/
+*.spec
+*.manifest
+
+# Ambientes Virtuais (ajuste os nomes se usar outros)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração de IDE/Editor (ajuste conforme seu editor)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Arquivos gerados pelo Sistema Operacional
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Arquivos de Testes e Cobertura (se usar)
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Arquivos específicos da aplicação
+# ---------------------------------
+
+# Banco de dados SQLite (contém os dados da aplicação)
+# Geralmente não se versiona o banco de dados em si, apenas o script de criação.
+os_database.db
+os_database.db-journal # Arquivo temporário do SQLite
+
+# Diretório de Uploads (contém fotos das OS geradas pelo usuário)
+uploads/
+
+# Diretório de Relatórios (contém PDFs gerados)
+reports/
+
+# Arquivos de Log (se você adicionar logging)
+*.log
+logs/
+
+# Arquivos de variáveis de ambiente (se usar)
+.env*
+
+# Outros arquivos temporários ou de backup comuns
+*.bak
+*.swp
+*~
