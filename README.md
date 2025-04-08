@@ -105,4 +105,8 @@ Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problema
 
 Seu Nome / Nome da Empresa - seu.email@exemplo.com
 
+<<<<<<< HEAD
 Link do Projeto: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
+=======
+Link do Projeto: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
+>>>>>>> 6f355f3d4d1c29582a3ba648ad8920cf7863a935
